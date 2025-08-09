@@ -475,7 +475,7 @@ The reservation process is here to prevent overlapping of Visage IDs in case som
 
 ## Holiday Global Variable Guidelines
 
-Collective Unconscious has a global variable that tracks the current holiday, with 0 being None. All possible values of variable 1237 are available in the developer's handbook. While Nexus decor and costumes will be organized by management, developers are free to add special decor and events to their own worlds as well, provided they follow these rules:
+Collective Unconscious has a global variable that tracks the current holiday, with 0 being None. All possible values of the global variable, V[1237], are available in the developer's handbook. While Nexus decor and costumes will be organized by management, developers are free to add special decor and events to their own worlds as well, provided they follow these rules:
 
 - No permanent collectibles that can only be accessed during the holiday. Book covers, menu themes, and masks may be allowed if they’re given a way to be unlocked permanently after first appearing in the holiday. The main Nexus masks will likely be kept temporary.
 - New music is allowed as long as it is either not unlockable in the record player or automatically granted upon visiting the area normally.
