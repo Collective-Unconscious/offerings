@@ -19,6 +19,7 @@ Date: <DD/Mmm/YYYY> (ex. 01/Jan/2000)
 ---------------------------------------------------
 Map policy ... <MAP_POLICY>
 Asset policy ... <ASSET_POLICY>
+Collectible policy ... <COLLECTIBLE_POLICY> (optional; only include this section if you have content you want blacklisted from receiving book covers or badges)
 Comments ... (free comment section)
 ---------------------------------------------------
 + MAP[XXXX] - <MAP_NAME> (<WORLD_NAME> (if it differs)) (Inaccessible (if applicable))
