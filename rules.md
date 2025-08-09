@@ -275,6 +275,8 @@ Book covers are collectibles similar to Yume 2kki's PC wallpapers. They are unlo
 
 ### How to make a Book Cover?
 
+First, make sure you are allowed to make a cover for the given subject. All book cover related policies can be found in the Collectible Policies section of [Map, Asset, & Collectible Policies](https://docs.google.com/document/d/1n1d-eS4kl3Ko6LEhN78mEz9o9rKHYkkLhPkZdNQZ5FM/edit?usp=sharing).
+
 __Cover specifications:__
 - Image dimensions of 218x282 pixels (width, height)
 - RGB color accepted (8-bit indexed is not required)
