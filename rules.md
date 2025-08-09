@@ -65,15 +65,16 @@ You will obtain the role of Contributor or Developer as soon as your content is 
 5. **Use our dev checklist and changelog template** to prepare your submission properly. This is a very important step and half of the work of a Developer, so **don't rush it**! Both of these documents can be found down below.
 6. **Write an explanation for any complex or hidden events**. This will be used by managers during playtesting. You can include it in the changelog or as a separate file, if you would like it to remain hidden (as changelogs become public after release).
 > - **What counts as a complex event?** This is any event whose workings cannot be quickly discerned upon opening a single event tile. This includes things like events using local switches and variables (as they cannot be renamed to explain their uses clearly), events with multiple page states that aren’t just tied to simple conditions like equipping an effect, and puzzles with multiple steps (solutions for puzzles should be included). When in doubt, it is better to over-explain than under-explain, so either include those that you’re unsure of or simply ask!
-7. **Send your submission in a compressed file** (.rar or .zip) to any @Spirit Guide (Manager)  when submissions are open. If it's too big for Discord's file limit, you can use Mediafire, Mega, or catbox.
+7. **List the licensed assets used if any were used, by providing the name, author, license and link.** Those assets will then be added to the credits by the managers when submitting your patch. Please also do that for assets using a free license, such as CC0 or Public Domain, as the legislation is different depending on the country.
+8. **Send your submission in a compressed file** (.rar or .zip) to any @Spirit Guide (Manager)  when submissions are open. If it's too big for Discord's file limit, you can use Mediafire, Mega, or catbox.
 Here's an example of how the inside of your zipped file should look like (please sort them out properly in their respective folders!):
 
 ![Submission files example](assets/update_tutorial.webp)
 *The archive should contain your changelog and your submission folder, which should contain the game files.*
 
-8. **Be prepared for potential bug fixing.** You should have playtested your maps before sending them to us, but it is possible you missed some bugs. If so, a @Spirit Guide (Manager) might DM you about it to fix them. Sometimes we will fix those ourselves, and sometimes you will have to take on that job and send your submission again. Be ready for it!
-9. **Be prepared for potential rejection.** If your submission has too many bugs or doesn't follow our rules and guidelines properly, it might not be accepted immediately and will have to undergo some changes on your side. Don't worry though, we will let you know what's wrong and give you some feedback on how to fix it. If you follow this feedback properly, we will reevaluate your submission. If it is found to meet the guidelines, it will be accepted.
-10. Unless some changes are still necessary, your content will appear in the game in the next update. **Congratulations!**
+9. **Be prepared for potential bug fixing.** You should have playtested your maps before sending them to us, but it is possible you missed some bugs. If so, a @Spirit Guide (Manager) might DM you about it to fix them. Sometimes we will fix those ourselves, and sometimes you will have to take on that job and send your submission again. Be ready for it!
+10. **Be prepared for potential rejection.** If your submission has too many bugs or doesn't follow our rules and guidelines properly, it might not be accepted immediately and will have to undergo some changes on your side. Don't worry though, we will let you know what's wrong and give you some feedback on how to fix it. If you follow this feedback properly, we will reevaluate your submission. If it is found to meet the guidelines, it will be accepted.
+11. Unless some changes are still necessary, your content will appear in the game in the next update. **Congratulations!**
 
 If you have any more questions or need clarifications on the process, let us know. Also consider reading through the [Developer's Handbook](https://docs.google.com/document/d/1eo9GmPM5MAAsaz1KWY_RLCBH8NZ1pUcQx6J3LlVsnMQ/edit?usp=sharing), which contains documentation of switches, variables, and common events, frequently asked questions, and various guidelines and tutorials.
 
@@ -141,7 +142,7 @@ Thank you and good luck, we are all looking forward to see what you create.
 - [ ] If you've modified the music of a map/event (needed for record player)
 
 - [ ] Added/Edited/Removed assets (charset, chipset, music, sound, panorama, picture...)
-	- If they were made by other contributors, credit them!
+	- If they were made by other contributors, credit them! Also give proper credits if the asset is licensed or was made based on a licensed asset!
 
 **PATCH GENERATOR**
 
@@ -262,6 +263,7 @@ The repository is a database containing a collection of various assets (music, s
 > - Music files must be limited to 30 characters.
 > - It is highly recommended to put your contributor name in the file name as a __prefix__ (like this: contribname_title.wav)
 > - We highly recommend that you add a __read_me text file__ containing your asset policies, explaining how others can use your assets.
+> - List the licensed assets used if any were used, by providing the name, author, license and link. Please also do that for assets using a free license, such as CC0 or Public Domain, as the legislation is different depending on the country.
 
 2. **If you want to use any of the assets as a Developer**, make sure to check if they have any [asset policy](https://docs.google.com/document/d/1n1d-eS4kl3Ko6LEhN78mEz9o9rKHYkkLhPkZdNQZ5FM/edit?usp=sharing), and let the Contributor know you are using their asset. If you don't get an answer from them, and you are respecting their policy, you can assume you are allowed to use their assets!
 
