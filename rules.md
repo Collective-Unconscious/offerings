@@ -33,9 +33,9 @@ The game is exclusively made for an online multiplayer experience, and hosted un
 
 - [Contributing Visages](#contributing-visages)
 
-- [Maniac Patch Guidelines](#maniac-patch-guidelines)
-
 - [Holiday Global Variable Guidelines](#holiday-global-variable-guidelines)
+
+- [Maniac Patch Guidelines](#maniac-patch-guidelines)
 
 ## What's a Developer? What's a Contributor?
 
@@ -473,6 +473,22 @@ Visages are [pseudo-eidola](#contributing-pseudo-eidola) that can be equipped vi
 
 The reservation process is here to prevent overlapping of Visage IDs in case someone else has submitted an update with a new Visage, and to make sure no empty slots are left in the Visage menu on release.
 
+## Holiday Global Variable Guidelines
+
+Collective Unconscious has a global variable that tracks the current holiday, with 0 being None. While Nexus decor and costumes will be organized by management, developers are free to add special decor and events to their own worlds as well, provided they follow these rules:
+
+- No permanent collectibles that can only be accessed during the holiday. Book covers, menu themes, and masks may be allowed if they’re given a way to be unlocked permanently after first appearing in the holiday. The main Nexus masks will likely be kept temporary.
+- New music is allowed as long as it is either not unlockable in the record player or automatically granted upon visiting the area normally.
+- Map layouts cannot change, as it could cause sync issues.
+- Maps can be heavily redecorated as long as the layout is the same.
+- Entire worlds and subareas should not be locked behind the holiday.
+- Unique NPCs and events can be available during the holiday as long as they make thematic sense (soft rule, to be reviewed on a case-by-case basis).
+- Temporary pseudos (akin to the party hat) are allowed in other worlds.
+- Temporary vending machine items are allowed as long as they are not part of the CE and the big VM.
+- A permanent collectible pseudo can be given a cosmetic change for a holiday that is reverted afterward.
+- Book covers and menu themes cannot be given cosmetic changes for a holiday, due to the effort required in updating the book.
+- No references to overt religious imagery or real religious figures, but other decor inspired by religious holidays is allowed. Santa Claus is not considered a religious figure, as his design and purpose is divorced from the original St. Nicholas.
+
 ## Maniac Patch Guidelines
 
 Maniac patch is a patch for RPG Maker 2003 which adds a lot of new commands, and expands some commands.
@@ -575,19 +591,3 @@ Battle Processing - The flash can now be disabled when a battle is set to start.
 ### Other
 
 If a command or expanded command is not mentioned, but you would still like to use it, ask to a @spirit Guide (Manager) if using it wouldn't be an issue, and make sure that the command is properly supported in the EasyRPG Player and fully accurate to the Maniac patch.
-
-## Holiday Global Variable Guidelines
-
-Collective Unconscious has a global variable that tracks the current holiday, with 0 being None. While Nexus decor and costumes will be organized by management, developers are free to add special decor and events to their own worlds as well, provided they follow these rules:
-
-- No permanent collectibles that can only be accessed during the holiday. Book covers, menu themes, and masks may be allowed if they’re given a way to be unlocked permanently after first appearing in the holiday. The main Nexus masks will likely be kept temporary.
-- New music is allowed as long as it is either not unlockable in the record player or automatically granted upon visiting the area normally.
-- Map layouts cannot change, as it could cause sync issues.
-- Maps can be heavily redecorated as long as the layout is the same.
-- Entire worlds and subareas should not be locked behind the holiday.
-- Unique NPCs and events can be available during the holiday as long as they make thematic sense (soft rule, to be reviewed on a case-by-case basis).
-- Temporary pseudos (akin to the party hat) are allowed in other worlds.
-- Temporary vending machine items are allowed as long as they are not part of the CE and the big VM.
-- A permanent collectible pseudo can be given a cosmetic change for a holiday that is reverted afterward.
-- Book covers and menu themes cannot be given cosmetic changes for a holiday, due to the effort required in updating the book.
-- No references to overt religious imagery or real religious figures, but other decor inspired by religious holidays is allowed. Santa Claus is not considered a religious figure, as his design and purpose is divorced from the original St. Nicholas.
