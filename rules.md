@@ -324,6 +324,7 @@ Every step is explained in stylzm's **vending machine tutorial document** that c
 
 1. Reserve battle animation entries.
 3. You can now follow the tutorial using a placeholder ID for each item and send us an update with all new items (don't forget to write it in the changelog and note down all placeholder IDs used)! Management will assign final IDs on implementation of the patch.
+	- Note: If your vending items are not solely for the default pool and are referenced in a world, please tell management the coordinates of the vending event so that IDs can be updated properly!
 
 Vending item IDs are not reserved until implementation in order to prevent reservations not being filled.
 
