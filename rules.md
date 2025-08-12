@@ -323,10 +323,9 @@ Vending machine items are another type of collectible that can be found by inter
 Every step is explained in stylzm's **vending machine tutorial document** that can be found right below. However, before submitting an item, there is a reservation process to follow:
 
 1. Reserve battle animation entries.
-2. Once you are **100% sure** your item is done and ready to be implemented for the next build, **contact a @Spirit Guide (Manager) to reserve a vending machine item slot** for it.
-3. You can now follow the tutorial and send us an update with the new items (don't forget to write it in the changelog)!
+3. You can now follow the tutorial using a placeholder ID for each item and send us an update with all new items (don't forget to write it in the changelog and note down all placeholder IDs used)! Management will assign final IDs on implementation of the patch.
 
-This process is here to prevent overlapping of vending machine item IDs in case someone else has submitted an update with a new item, and to make sure no empty slots are left in the big vending machine gallery on release.
+Vending item IDs are not reserved until implementation in order to prevent reservations not being filled.
 
 **[Vending machine tutorial PDF file](vending_machine_tutorial.pdf)**
 
@@ -342,15 +341,14 @@ Menu Themes are a type of collectible that can be found in worlds, changing the 
 
 Similar to vending machine items, there is a reservation process to follow before submitting a menu theme:
 
-1. Make **100% sure** your menu theme is done and ready to be implemented for the next build. This includes creating a finalised system file (menu theme), as well as setting up/making sure of the conditions for obtaining said menu theme in game. 
+1. Implement your menu theme, creating a finalised system file (menu theme), as well as setting up/making sure of the conditions for obtaining said menu theme in game. 
 > If your menu theme is obtained from interacting with an object, make sure you are sure of and have completed the designated location for it.
 > If your menu theme is obtained after an event, make sure the creation of that event is completed.
 
-2. Once you are 100% sure your menu theme is done and ready to be implemented, **contact a @Spirit Guide (Manager) to reserve a Menu Theme ID**.
-3. Once you have been given your Menu Theme ID, edit **CE 29 - Reset Menu Theme**:
+2. Choose a placeholder ID (any menu theme ID that has not been implemented yet in your build is fine), and edit **CE 29 - Reset Menu Theme**:
 
 - Scroll down to the bottom of the CE and create a new conditional branch. The easiest way to do so is to copy a previous entry.
-- Edit the conditional branch and change the constant number to your given Menu Theme ID.
+- Edit the conditional branch and change the constant number to a placeholder ID.
 - Edit the change system graphic command to your own menu theme.
 
 Below is an example of how your entry should be formatted:
@@ -358,17 +356,17 @@ Below is an example of how your entry should be formatted:
 ![An example of a menu theme code entry](assets/menu_theme_code.png)
 *A conditional branch on variable 0116 encapsulates a 'Change System Graphic' command.*
 
-4. Implement your **Menu Theme event**.
+3. Implement your **Menu Theme event**.
 
 The important commands are:
-- Setting Variable 91 to your given Menu Theme ID.
+- Setting Variable 91 to your placeholder ID.
 - Calling CE 28 - Unlock Menu Theme.
 
 Below is an example of what a menu theme unlocked by interacting with an event looks like:
 
 ![An example of a menu theme unlock event](assets/menu_theme_unlock_event.png)
 
-5. **OPTIONAL** - create a Menu Theme cube. 
+4. **OPTIONAL** - create a Menu Theme cube. 
 
 If your menu theme is unlocked by interaction, you can create your own Menu Theme cube graphic to go with it! 
 - Edit the charset awu_menuthemes.png to include your menu theme cube graphic
@@ -378,11 +376,11 @@ Note: Menu Theme cubes are the recommended standard for all menu themes, but you
 
 ![Menu theme cube charset](assets/menu_theme_cubes.png)
 
-5. Send us an update with the new menu theme (don't forget the changelog)!
+5. Send us an update with the new menu theme (don't forget the changelog)! Note down what placeholder ID was used. Management will assign a final ID on implementation of the patch.
 
-Disclaimer: Although you have finished these tasks, note that your menu theme has **not been fully implemented yet**! Managers have to take care of updating CE 28 - Unlock Menu Theme, as well as implementing your menu theme in the book. By helping us with the tasks above, you can make things all the more easier for us <:uroSleep:1193890857452052561> 
+Disclaimer: Although you have finished these tasks, note that your menu theme has **not been fully implemented yet**! Managers have to take care of updating CE 28 - Unlock Menu Theme, as well as implementing your menu theme in the book. By helping us with the tasks above, you can make things all the more easier for us. 
 
-The reservation process is here to prevent overlapping of Menu Theme IDs in case someone else has submitted an update with a new menu theme, and to make sure no empty slots are left in the book on release.
+Menu Theme IDs are not reserved until implementation in order to prevent reservations not being filled.
 
 ## Contributing Terrains
 
@@ -451,31 +449,31 @@ In the Debug Room, at (009,032), there is an event with basic code for equipping
 
 Make sure to thoroughly playtest all actions (sitting on benches, climbing ladders, entering and exiting boats) and gestures to make sure implementation was done correctly! Include the pseudo's equip location in your changelog on submission.
 
-## Contributing Visages
+## Contributing Masks
 
 ![Minnatsuki accessing the Visage menu](assets/visage_menu.webp)
 
-### What are Visages?
-Visages are [pseudo-eidola](#contributing-pseudo-eidola) that can be equipped via the Visage eidolon at any time.
+### What are Masks?
+Masks are [pseudo-eidola](#contributing-pseudo-eidola) that can be equipped via the Visage eidolon at any time.
 
-### How to contribute Visages
-1. Once you are 100% sure your visage is done and ready to be implemented (make sure it follows all of the rules and guidelines seen above!), contact a @Spirit Guide (Manager) to reserve a Visage ID. If you did not create the visage and are just adding it to your world, make sure to tell the manager who created it. Your reservation will be denied if the visage is not completely ready!
-> If your visage is obtained from interacting with an object, make sure you are sure of and have completed the designated location for it. If your visage is obtained after an event, make sure the creation of that event is completed.
-2. Specify a switch for unlocking your visage.
-3. Once you have been given your Visage ID, edit CE 87: Visage Menu Check.
+### How to contribute Masks
+1. Complete your pseudo eidolon's implementation.
+> If the mask version is obtained from interacting with an object, make sure you are sure of and have completed the designated location for it. If your mask is obtained after an event, make sure the creation of that event is completed.
+2. Specify a switch for unlocking your mask.
+3. Choose a placeholder ID (any mask ID that has not been implemented yet in your build is fine), and edit CE 87: Visage Menu Check.
 > - Copy an existing block, starting with Conditional Branch: V[0175:Circle Menu - Temp5] ==
-> - Change both the outer and innermost conditional branches to point to your visage ID. 
-> - Change the middle conditional branch to use your visage unlock switch.
+> - Change both the outer and innermost conditional branches to point to your placeholder ID. 
+> - Change the middle conditional branch to use your mask unlock switch.
 4. Edit CE 88: Handle Visage.
 > - Copy an existing block, starting with Conditional Branch: V[0081:Circle Menu - Cursor] ==
-> - Change the conditional branch to point to your visage ID.
-> - Change the switch control to turn your visage equip switch on.
-5. Add a picture titled “pseudos_{3 digit ID}” that is 24x32, showing the front facing standing sprite of your visage.
+> - Change the conditional branch to point to your placeholder ID.
+> - Change the switch control to turn your mask equip switch on.
+5. Add a picture titled “pseudos_{3 digit ID}” that is 24x32, showing the front facing standing sprite of your mask.
 6. In the event where your visage is unlocked, add a block of code showing the unlock notification (see the Pseudo Equip event in the debug room at (009,032) for an example).
 7. Make sure to playtest thoroughly!
-8. Send us an update with the new visage (don't forget the changelog)!
+8. Send us an update with the new mask (don't forget the changelog)! Please note down what placeholder ID was used. Management will assign a final ID on implementation of the patch. 
 
-The reservation process is here to prevent overlapping of Visage IDs in case someone else has submitted an update with a new Visage, and to make sure no empty slots are left in the Visage menu on release.
+Mask IDs are not reserved until implementation in order to prevent reservations not being filled.
 
 ## Holiday Global Variable Guidelines
 
