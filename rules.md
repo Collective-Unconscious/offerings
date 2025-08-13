@@ -31,7 +31,7 @@ The game is exclusively made for an online multiplayer experience, and hosted un
 
 - [Contributing Pseudo-eidola](#contributing-pseudo-eidola)
 
-- [Contributing Visages](#contributing-visages)
+- [Contributing Masks](#contributing-masks)
 
 - [Holiday Global Variable Guidelines](#holiday-global-variable-guidelines)
 
@@ -460,7 +460,7 @@ Masks are [pseudo-eidola](#contributing-pseudo-eidola) that can be equipped via 
 ### How to contribute Masks
 1. Complete your pseudo eidolon's implementation.
 > If the mask version is obtained from interacting with an object, make sure you are sure of and have completed the designated location for it. If your mask is obtained after an event, make sure the creation of that event is completed.
-2. Specify a switch for unlocking your mask.
+2. Specify a switch for unlocking your mask (a map skill can be used if it is obtained from visiting a map for the first time).
 3. Choose a placeholder ID (any mask ID that has not been implemented yet in your build is fine), and edit CE 87: Visage Menu Check.
 > - Copy an existing block, starting with Conditional Branch: V[0175:Circle Menu - Temp5] ==
 > - Change both the outer and innermost conditional branches to point to your placeholder ID. 
