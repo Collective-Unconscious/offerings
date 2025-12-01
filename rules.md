@@ -308,7 +308,7 @@ Fill in the **[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe3zY1jmUGh
 - Title
 - Contributor name
 - Detailed description of the conditions required for the player to obtain/unlock your cover
-- Direct link to your image (catbox or Imgur)
+- Direct link to your image (please use catbox.moe)
 
 ## Contributing Vending Machine Items
 
