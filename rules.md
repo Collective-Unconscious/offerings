@@ -55,13 +55,13 @@ You will obtain the role of Contributor or Developer as soon as your content is 
 ### How can I become a Developer?
 
 1. Check the ⁠#read_me_👁, ⁠#guidelines, and #⁠important_links channels, as well as this wiki, thoroughly. It's a long but very important read!
-2. Fill out the **[Skills Base document](https://docs.google.com/spreadsheets/d/1Jq7XSVAZD1meZjSY4yYEZBC-cbbsN585tZNbx30Cd5I/edit?usp=sharing)**  with all the needed information.
+2. Fill out the **[Skills Base document](https://docs.google.com/spreadsheets/d/1CAMKvBCEcYAIBd0CUPMV6Z7ruXYVgmLXmNxWivHGBBk/edit?usp=sharing)**  with all the needed information.
 3. **Contact any @Spirit Guide (Manager)** to reserve database entries, as well as specifying your chosen Developer name for the game.
 
 > - You will be given the @🗝️ Spirit Key role, which grants you access to the build.
 > - You will then be given 10 database entries each for maps, tilesets, variables and switches. You can also reserve 10 battle animations entries if specifically requested.
 > - Your reserved entries only belong to you and no other @Zone Weaver (Developer). If you decide you no longer can or want to use them, you should tell any @Spirit Guide (Manager) so the entries can be cleared.
-> - Your database entries are visible in the **[Reservation List document](https://docs.google.com/spreadsheets/d/1H-f9iXSCZMGhCLny914neOCTLkf89xB_SwjTWR7UfJo/edit?usp=sharing)**.
+> - Your database entries are visible in the **[Reservation List document](https://docs.google.com/spreadsheets/d/1pfEJxkjvYQCje5QjEF7fnXCDKyrbxP9diFZ6eK9fKoY/edit?usp=sharing)**.
 > - Please pick a developer name that you will feel comfortable keeping, as changing it is an laborious process.
 4. Make sure what you are developing is always **up to date** with the latest version of the game. You'll get access to the build after having reserved database entries.
 5. **Use our dev checklist and changelog template** to prepare your submission properly. This is a very important step and half of the work of a Developer, so **don't rush it**! Both of these documents can be found down below.
@@ -78,7 +78,7 @@ Here's an example of how the inside of your zipped file should look like (please
 10. **Be prepared for potential rejection.** If your submission has too many bugs or doesn't follow our rules and guidelines properly, it might not be accepted immediately and will have to undergo some changes on your side. Don't worry though, we will let you know what's wrong and give you some feedback on how to fix it. If you follow this feedback properly, we will reevaluate your submission. If it is found to meet the guidelines, it will be accepted.
 11. Unless some changes are still necessary, your content will appear in the game in the next update. **Congratulations!**
 
-If you have any more questions or need clarifications on the process, let us know. Also consider reading through the [Developer's Handbook](https://docs.google.com/document/d/1eo9GmPM5MAAsaz1KWY_RLCBH8NZ1pUcQx6J3LlVsnMQ/edit?usp=sharing), which contains documentation of switches, variables, and common events, frequently asked questions, and various guidelines and tutorials.
+If you have any more questions or need clarifications on the process, let us know. Also consider reading through the [Developer's Handbook](https://docs.google.com/document/d/15F-xuJxfJLH4EcmRyF4duifiya0UUVQ1ipNQN-_mIco/edit?usp=sharing), which contains documentation of switches, variables, and common events, frequently asked questions, and various guidelines and tutorials.
 
 Thank you and good luck, we are all looking forward to see what you create.
 
@@ -242,7 +242,7 @@ The open connection process has been formalized in order to avoid conflicts on c
 
 ### How can I become a Contributor?
 
-First and formost, you should fill out the **[Skills Base document](https://docs.google.com/spreadsheets/d/1Jq7XSVAZD1meZjSY4yYEZBC-cbbsN585tZNbx30Cd5I/edit?usp=sharing)** with all the needed information.
+First and formost, you should fill out the **[Skills Base document](https://docs.google.com/spreadsheets/d/1CAMKvBCEcYAIBd0CUPMV6Z7ruXYVgmLXmNxWivHGBBk/edit?usp=sharing)** with all the needed information.
 
 There are two ways of becoming a contributor:
 
@@ -256,18 +256,9 @@ There are two ways of becoming a contributor:
 
 ### What's a repository?
 
-The repository is a database containing a collection of various assets (music, sounds, charsets, tilesets, panoramas...) made by other Contributors. Developers can use any of these assets on their maps, as long as they credit the Contributor.
+*This section is under construction!*
 
-### How can I access the repository?
-
-1. **If you want to add files to the repository**, contact a @Spirit Guide (Manager) so she can give you access to a specific channel explaining the process. The @🗝️ Spirit Key role also gives you access to this channel!
-> -  Your music and sound files should always be in __wav__ format.
-> - Music files must be limited to 30 characters.
-> - It is highly recommended to put your contributor name in the file name as a __prefix__ (like this: contribname_title.wav)
-> - We highly recommend that you add a __read_me text file__ containing your asset policies, explaining how others can use your assets.
-> - List the licensed assets used if any were used, by providing the name, author, license and link. Please also do that for assets using a free license, such as CC0 or Public Domain, as the legislation is different depending on the country.
-
-2. **If you want to use any of the assets as a Developer**, make sure to check if they have any [asset policy](https://docs.google.com/document/d/1n1d-eS4kl3Ko6LEhN78mEz9o9rKHYkkLhPkZdNQZ5FM/edit?usp=sharing), and let the Contributor know you are using their asset. If you don't get an answer from them, and you are respecting their policy, you can assume you are allowed to use their assets!
+2. **If you want to use any of the assets as a Developer**, make sure to check if they have any [asset policy](https://docs.google.com/document/d/19YXY7AkjIrDyvOAGnAc5BinSQmCBuLjBYFgtkKV_r4g/edit?usp=sharing), and let the Contributor know you are using their asset. If you don't get an answer from them, and you are respecting their policy, you can assume you are allowed to use their assets!
 
 ## Contributing a Book Cover
 
@@ -279,7 +270,7 @@ Book covers are collectibles similar to Yume 2kki's PC wallpapers. They are unlo
 
 ### How to make a Book Cover?
 
-First, make sure you are allowed to make a cover for the given subject. All book cover related policies can be found in the Collectible Policies section of [Map, Asset, & Collectible Policies](https://docs.google.com/document/d/1n1d-eS4kl3Ko6LEhN78mEz9o9rKHYkkLhPkZdNQZ5FM/edit?usp=sharing).
+First, make sure you are allowed to make a cover for the given subject. All book cover related policies can be found in the Collectible Policies section of [Map, Asset, & Collectible Policies](https://docs.google.com/document/d/19YXY7AkjIrDyvOAGnAc5BinSQmCBuLjBYFgtkKV_r4g/edit?usp=sharing).
 
 __Cover specifications:__
 - Image dimensions of 218x282 pixels (width, height)
@@ -304,7 +295,7 @@ All relevant information is compiled into the images below for quick reference:
 
 ### How to submit a Book Cover?
 
-Fill in the **[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe3zY1jmUGhdrv9WaZIjL-nYJ4rOTnKG7ORTgASaqLtPcN1aA/viewform)** with all the necessary information:
+Fill in the **[Google Form](https://forms.gle/Nbbu2Mg8p48fbsrd7)** with all the necessary information:
 - Title
 - Contributor name
 - Detailed description of the conditions required for the player to obtain/unlock your cover
@@ -431,7 +422,7 @@ This reservation process is here to prevent overlapping of terrain IDs in case s
 ![Minnatsuki wearing a pseudo-eidolon](assets/wearing_pseudo.webp)
 
 ### What are Pseudo-eidola?
-Pseudo-eidola (often referred to as pseudos) are cosmetic changes to Minnatsuki outside the core supported eidola and boats and not encompassed in [custom protagonist sprites](https://docs.google.com/document/d/1eo9GmPM5MAAsaz1KWY_RLCBH8NZ1pUcQx6J3LlVsnMQ/edit?pli=1&tab=t.0#heading=h.mk2du8auk1jy). These can be equipped via any event but are commonly seen as outfits the player can pick up in the Spirit World. Pseudos can optionally have an action on the 1 key (this is added by modifying CE 13: Effect Action).
+Pseudo-eidola (often referred to as pseudos) are cosmetic changes to Minnatsuki outside the core supported eidola and boats and not encompassed in [custom protagonist sprites](https://docs.google.com/document/d/15F-xuJxfJLH4EcmRyF4duifiya0UUVQ1ipNQN-_mIco/edit?tab=t.0#heading=h.mk2du8auk1jy). These can be equipped via any event but are commonly seen as outfits the player can pick up in the Spirit World. Pseudos can optionally have an action on the 1 key (this is added by modifying CE 13: Effect Action).
 
 ### Pseudo-eidola guidelines
 All pseudo-eidola must follow the following guidelines.
@@ -442,7 +433,7 @@ All pseudo-eidola must follow the following guidelines.
 - All pseudos must fit within the standard 24x32 charset cell size, unless they are going to be only accessible in an isolated world where extra size can be accomodated.
 
 ### How to contribute pseudo-eidola
-Follow the instructions present in the [Adding pseudo-eidola](https://docs.google.com/document/d/1eo9GmPM5MAAsaz1KWY_RLCBH8NZ1pUcQx6J3LlVsnMQ/edit?pli=1&tab=t.0#heading=h.mlu9st8wa7qe) section of the developer's handbook to create your pseudo.
+Follow the instructions present in the [Adding pseudo-eidola](https://docs.google.com/document/d/15F-xuJxfJLH4EcmRyF4duifiya0UUVQ1ipNQN-_mIco/edit?tab=t.0#heading=h.mlu9st8wa7qe) section of the developer's handbook to create your pseudo.
 
 Modify CE 13: Effect Action if you wish to add a 1 key action.
 
