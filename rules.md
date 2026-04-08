@@ -12,6 +12,8 @@ The game is exclusively made for an online multiplayer experience, and hosted un
 
 - [What's a Developer? What's a Contributor?](#whats-a-developer-whats-a-contributor)
 
+- [Content Guidelines](#content-guidelines)
+
 - [Becoming a Developer](#becoming-a-developer)
 	- [The Dev Checklist](#the-dev-checklist)
  	- [What if I leave the project?](#what-if-i-leave-the-project)
@@ -47,6 +49,33 @@ There are two ways in which you can contribute to Collective Unconscious:
 - **__Becoming a Contributor__**: A Contributor can add something to the game which does not require any database entries to be reserved (music, sound effects, pictures, panoramas, unlockables, etc). This role is represented in the server as @Wandering Ghost (Contributor).
 
 You will obtain the role of Contributor or Developer as soon as your content is added in one of the game's updates.
+
+## Content Guidelines
+
+Collective Unconscious has the following guidelines for content submitted to the game:
+
+1. Use the latest version of RPG Maker 2003, which can be purchased on Steam. Do not use any third-party patches or modifications of the engine. (Note: we might eventually switch to the EasyRPG Editor once it is released)
+2. You may not, in any way, modify game content which does not belong to you (unless explicitly stated otherwise). See the Map & Asset Policies document to check if a Developer has authorized any edits to their content. You may also ask a Developer directly if you have questions. When in doubt, assume that you are not allowed to edit it.
+
+    2a. Core Developers and Managers may modify any game content for the purposes of maintaining game stability and enforcing these guidelines, regardless of who owns the content. The owner of the content will be notified of any changes that need to be made to it. 
+3. You may not use any other Developers' game content, excluding core game functions intended to be used by everyone (such as common events). Similarly to Rule #2, check the [Map & Asset Policies](https://docs.google.com/document/d/19YXY7AkjIrDyvOAGnAc5BinSQmCBuLjBYFgtkKV_r4g/edit?usp=sharing) document for content usage rules per-Developer. If the Developer has not specified any rules, assume that you are not allowed to use any of their content.
+4. Only use content you have the rights for. If you want to use content (outside of this game's content repository) that you did not make yourself, make sure the content's copyright license allows for your usage of it, and that you follow the CC licenses accordingly. You will be fully responsible for making sure you aren't violating any copyright laws.
+	
+	4a. AI-generated assets are not allowed in the game due to the ambiguity of ownership and copyright.
+
+	4b. Please refrain from using heavily copyrighted music for sampling for either sound effects or music.
+	
+	4c. Do not copy or plagiarize others' work. Doing so intentionally will lead to the offending content being removed and your banning from the project. Using references and making homages is fine, but if you're concerned that your work is too close to that of someone else, contact managers for feedback. On a similar note, if you notice any plagiarized work in the game, please contact managers and provide ample evidence.
+6. "Realistic" gore (detailed and extreme bodily harm, or detailed results of said bodily harm) must be limited in its scope. More extreme gore is acceptable if it's simplistic/stylized enough. Blood on its own does not count as gore, and is therefore allowed in most situations. Please contact a manager if you're unsure about the acceptability of your content.
+	
+	6a. Avoid graphic depictions of suicide or self harm. If it is more graphic than the ending of Yume Nikki (where the jump is shown but not impact or body), please discuss it with management.
+7. All sexual or sexually suggestive content is strictly forbidden. Implied nudity is acceptable as long as it is censored in some way and it is in a purely non-sexual context.
+8. Avoid depicting (or making intentional references to), real-life events, public figures, or organizations. This includes religion and politics. Generic religion-themed content is permitted (eg, churches), as long as it doesn't contain any specific references to religions in real life. For example, you can make a church with no iconography, or with original, made-up iconography. Iconography associated with real-life religion may be used in some non-religious contexts, such as a cross on a tombstone.
+9. Intense jumpscares/screamers are not allowed. These can loosely be described as "sudden, startling fullscreen images accompanied by loud noises". As a more clear point of reference, try not to make anything more startling than Yume Nikki's most startling events (FACE, Uboa, etc).
+10. The implementation of text will be reviewed on a case-by-case basis. Please always contact a manager if you add text in your submission so it can be reviewed, included encoded text. The general guideline is that visuals should always come first in regards to story-telling, and that text should fit into the visuals in the way it's presented. This is to avoid text standing out too much and breaking immersion.
+11. Collective Unconscious has a minimum quality requirement for your content to be accepted. Your map should be built in a way that gathers the player's interest and creates an enjoyable experience. In order to contribute, you have to be willing to accept constructive feedback and improve on your work if needed.
+
+If you have questions about whether something fits the guidelines, please don't hesitate to contact the manager team! We try to be flexible and support developer expression and creativity.
 
 ## Becoming a Developer
 
