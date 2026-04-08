@@ -54,7 +54,7 @@ You will obtain the role of Contributor or Developer as soon as your content is 
 
 Collective Unconscious has the following guidelines for content submitted to the game:
 
-1. Use the latest version of RPG Maker 2003, which can be purchased on Steam. Do not use any third-party patches or modifications of the engine. (Note: we might eventually switch to the EasyRPG Editor once it is released)
+1. Use the latest version of RPG Maker 2003, which can be purchased on Steam.  Maniac's patch may be used on top of it. 
 2. You may not, in any way, modify game content which does not belong to you (unless explicitly stated otherwise). See the Map & Asset Policies document to check if a Developer has authorized any edits to their content. You may also ask a Developer directly if you have questions. When in doubt, assume that you are not allowed to edit it.
 
     2a. Core Developers and Managers may modify any game content for the purposes of maintaining game stability and enforcing these guidelines, regardless of who owns the content. The owner of the content will be notified of any changes that need to be made to it. 
