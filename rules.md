@@ -2,7 +2,7 @@
 
 **Collective Unconscious** is an open, collaborative game project inspired by Yume Nikki and its fangames, developed in RPG Maker 2003. You control Minnatsuki, a mysterious character wandering around a dream-like world full of spirits and otherworldly beings.
 
-The game is exclusively made for an online multiplayer experience, and hosted under the [Yume Nikki Online Project](https://ynoproject.net) website. Anyone can contribute to the project, as long as they respect the submission procedures and rules outlined in the #guidelines channel on Discord.
+The game is exclusively made for an online multiplayer experience, and will be hosted on its own website (currently a work in progress). Anyone can contribute to the project, as long as they respect the submission procedures and rules outlined here and in the developer's handbook.
 
 ![The Nexus](assets/nexus.webp)
 
@@ -217,17 +217,17 @@ If a path is blocked without any of these indications, you have two options: eit
 
 ### How do I submit an open connection?
 
-Simply place an open connection sign in your world at the desired location and **note it in your changelog** (including the coordinates). A @Spirit Guide (Manager) will add it to the [Connections Document](https://docs.google.com/spreadsheets/d/1D1gn9FtWGWsrHylgFvlNQ6Uar0kHx7S-ULzVR7iLpZE/edit#gid=0) when the new build is released.
+Simply place an open connection sign in your world at the desired location and **note it in your changelog** (including the coordinates). A @Spirit Guide (Manager) will add it to the [Connections Document](https://docs.google.com/spreadsheets/d/1Okv-5O-xDaeaVcOQbKpF8V521_08GZLhpQI-VR1c7zU/) when the new build is released.
 
 > Please try to keep worlds to **5 open connections or fewer**. You can discuss with a @Spirit Guide (Manager) if you think your world calls for more connections, but it is likely to not be accepted except in rare circumstances.
 > 
 ### How do I claim an open connection?
 
-1. **Check the Connection Requests page** (page 3 of the [Connections Document](https://docs.google.com/spreadsheets/d/1D1gn9FtWGWsrHylgFvlNQ6Uar0kHx7S-ULzVR7iLpZE/edit#gid=0)) to see if the connection you want is free. 
+1. **Check the Connection Requests page** (page 3 of the [Connections Document](https://docs.google.com/spreadsheets/d/1Okv-5O-xDaeaVcOQbKpF8V521_08GZLhpQI-VR1c7zU/)) to see if the connection you want is free. 
 
 2. **Talk to the @Zone Weaver (Developer) of the world and confirm whether they’re okay with you taking the connection.** Even if it is an open connection, it’s best practice to discuss it with the dev. If you can’t contact the developer for some reason, contact a @Spirit Guide (Manager). 
 
-3. **Fill out the [Connection Request form](https://forms.gle/vzCzeJU4sJxkMDNP9)**. Cross reference the document to get the correct connection letter and world number. Everything needs to be formatted *exactly* as the instructions say, or else your request *will not be added*!
+3. **Fill out the [Connection Request form](https://docs.google.com/forms/d/e/1FAIpQLSdNCWInurKN0yj8SGY_hnxrc3ugZti1V7u9B1T6ij_EyDo0QA/viewform)**. Cross reference the document to get the correct connection letter and world number. Everything needs to be formatted *exactly* as the instructions say, or else your request *will not be added*!
 
 4. **Confirm that the Connection Requests page added your submission**. If it did not, you may have put in information incorrectly, so please try resubmitting or contacting @nacremoon or another @Spirit Guide (Manager).
 
@@ -237,21 +237,11 @@ Simply place an open connection sign in your world at the desired location and *
 
 ### How does the Connections document work?
 
-The [Connections Document](https://docs.google.com/spreadsheets/d/1D1gn9FtWGWsrHylgFvlNQ6Uar0kHx7S-ULzVR7iLpZE/edit#gid=0) has three pages: 1 Connections (Depth), 2 Connections (Priority), and 3 Connection Requests.
+The Connections Document has two main pages: Connections and Connection Requests.
 
-#### Connections (Depth) and Connections (Priority)
+#### Connections 
 
-The same page, just organized differently. These pages show in-depth information on each world in the game, organising them by depth (with the Nexus being 0) and priority respectively. These pages show the status of the most recent build on release and will not be updated until the next build is released. 
-
-#### What is Priority?
-
-Priority is a measurement of how important it is that the open connections in the world be filled. Older, lower depth worlds with fewer connections take higher priority. You can take any connection that is available, but please give special consideration to high priority ones. Events like Collective Creations will also be run throughout the year to focus on filling high priority connections. 
-
-The priority formula works as follows:
-- Amount of children: 25% $\times$ (the less child worlds -> higher value)
-- Open connections: 25% $\times$ (the more openC -> higher value)
-- Depth: 30% $\times$ (the lower depth -> higher value)
-- Version: 20% $\times$ (the older version -> higher value)
+This page shows in-depth information on each world in the game, organising them by depth (with the Nexus being 0). This page shows the status of the most recent build on release and will not be updated until the next build is released. 
 
 #### Connection Requests
 
@@ -259,11 +249,11 @@ This page is connected to the Connection Request form. It is the source of truth
 
 #### What if I see incorrect information?
 
-Contact @nacremoon. Any missed connections will be manually added. Anything not currently in the build will not be added to the document. Information may be removed in extreme cases, such as your entire world getting an overhaul and no current connections being relevant anymore.
+Contact @nacremoon or @cheo__. Any missed connections will be manually added. Anything not currently in the build will not be added to the document. Information may be removed in extreme cases, such as your entire world getting an overhaul and no current connections being relevant anymore.
 
 The open connection process has been formalized in order to avoid conflicts on connection claims.
 
-> For any inquiry about the connection process, **please contact @nacremoon**.
+> For any inquiry about the connection process, **please contact @nacremoon or @cheo__**.
 
 ## Becoming a Contributor - Using the Repository
 
