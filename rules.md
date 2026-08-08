@@ -14,6 +14,10 @@ The game is exclusively made for an online multiplayer experience, and will be h
 
 - [Content Guidelines](#content-guidelines)
 
+- [Content Ownership](#content-ownership)
+	- [Core Assets](#core-assets)
+	- [Other Assets](#other-assets)
+
 - [Becoming a Developer](#becoming-a-developer)
 	- [The Dev Checklist](#the-dev-checklist)
  	- [What if I leave the project?](#what-if-i-leave-the-project)
@@ -76,6 +80,61 @@ Collective Unconscious has the following guidelines for content submitted to the
 11. Collective Unconscious has a minimum quality requirement for your content to be accepted. Your map should be built in a way that gathers the player's interest and creates an enjoyable experience. In order to contribute, you have to be willing to accept constructive feedback and improve on your work if needed.
 
 If you have questions about whether something fits the guidelines, please don't hesitate to contact the manager team! We try to be flexible and support developer expression and creativity.
+
+## Content Ownership
+
+Collective Unconscious handles ownership of core assets and other assets submitted to the game differently. Please read the following sections carefully before submitting work! Please note that all submitted content and usages described ahead are still subject to the game's overall quality guidelines. These rules apply to all currently submitted and future content.
+
+### Core Assets
+
+Core assets are considered to be any designs, sprites, maps, music, sounds, or events that are central to the game's main mechanics and experience.
+
+Core assets submitted to Collective Unconscious are considered to fully be property of the game's management team. Significant changes to the assets, such as design updates, will generally be discussed with the original designers should they be contactable, but final decision making lies with management. Core assets' use in the game will be controlled and approved by management, including additions building on top of the assets (such as holiday decor added to the Nexus) and developer requests to make derivatives of the assets elsewhere in the game (such as a world using a copy of Minnatsuki's totem). Removals of core assets are highly unlikely to be considered, most likely only in the case of egregious moderation issues associated with the original designers. Management reserves the right to make these decisions, and each will be discussed on a case-by-case basis.
+
+Core assets include the following content in the game:
+- Minnatsuki
+    - Design and visual assets for the base form
+    - Design and visual assets for all gestures
+    - Boat design and visual assets for the base form
+    - Fallen pose design and visual assets
+    - Shaking head animation design and visual assets
+    - Footstep sounds for all terrains
+    - All Nexus holiday pseudoeffect designs and visual assets (eg the party hat pseudo)
+- Minnatsuki's room
+    - Design and visual assets of Minnatsuki's room
+    - Mapping and eventing of Minnatsuki's room
+- Nexus
+    - Visual assets used in the Nexus and its subareas
+    - Mapping and eventing of the Nexus and its subareas
+    - Music and sound used in the Nexus and its subareas
+- Eidola
+    - Visual assets of eidola
+    - Functional usages of eidola
+    - Names and descriptions of eidola
+    - Design and visual assets of worlds made to hold eidola
+    - Mapping and eventing of worlds made to hold eidola
+- Save book
+    - Visual assets of the save book (not including book covers beyond the default two)
+    - Music and sound used in the save book
+- Vending machines
+    - Base blue vending machine and recycling bin designs and visual assets
+    - Vending machine coin and item dispense sounds (not including individual items' sound effects)
+- Core animations + associated sounds
+    - Eidolon equip and dequip animations
+    - Pseudoeffect equip and dequip animations
+    - Persona equip and dequip animations
+    - Luna obtaining animation
+    - Wake up soul animation
+
+Minnatsuki's designs and sprites can be freely used and modified within Collective Unconscious for pseudoeffects, personas, and custom sprite setups. The base vending machine's design and sprite can be freely used and modified within Collective Unconscious. Other core assets may be modified with approval from management. These derivatives are not considered core assets. 
+
+### Other Assets
+
+All other assets submitted to Collective Unconscious stay in the ownership of the original creator, with caveats and rules to their usage. It is discouraged to use recognizable designs and assets in other creative projects but currently not disallowed; management and other affected developers should be notified, however. Any submitted content may be modified by the original creator within the game whenever submissions are open, such as remaking a map layout, overhauling visual assets, or adjusting a music track. If the changes are significant enough to potentially cause disruption to other developers, those developers must be notified. 
+
+Removal of content will be considered on a case-by-case basis but will be heavily scrutinized. Removals that would negatively impact multiple other developers, such as worlds with outgoing connections or music currently in use by one or more other worlds, are more likely to be denied. Removals that will have a minimal effect on the rest of the game, such as isolated dead-end worlds, are more likely to be approved. The creator requesting removal may be asked to help arrange for needed replacements if the removal is to be approved. Management also reserves the right to remove content from the game outside of a creator's request if there are egregious moderation, plagiarism, or copyright infringement issues involved; the creators will be contacted by management about these types of removals with a chance to appeal. 
+
+Management will attempt to work with any creators who wish to remove their content, but before submitting anything, you are highly encouraged to consider carefully if it is something you would be okay with staying in the game permanently. A readiness to remove submitted work for any reason is not a productive or thoughtful way to approach a highly collaborative project.
 
 ## Becoming a Developer
 
