@@ -4,6 +4,8 @@
 
 The game is exclusively made for an online multiplayer experience, and will be hosted on its own website (currently a work in progress). Anyone can contribute to the project, as long as they respect the submission procedures and rules outlined here and in the developer's handbook.
 
+If you are interested in contributing to Collective Unconscious (music/sprites/worlds) [Join the Dev Server Here](https://discord.com/invite/54U9nNnK9x). Otherwise, feel free to join our [public community server](https://discord.gg/GPf8ANhxKu)! 
+
 ![The Nexus](assets/nexus.webp)
 
 ## Table of Contents
